@@ -3,5 +3,13 @@
 # hint: El método .include? de un string busca si un caracter
 # o string dado está contenido en éste.
 
-cadena = 'Hola Mundo!'
-caracter = 'o'
+cadena1 = 'Hola Mundo!'
+caracter2 = 'o'
+
+
+def tiene(cadena, caracter)
+  cadena.include?(caracter)
+end
+
+puts tiene(cadena1,caracter2)
+
